@@ -1,3 +1,6 @@
+import {HeartType} from "./heart-svg.type";
+
 export interface IHeart {
-    symbol: string
+    type: HeartType,
+    color: string,
 }
