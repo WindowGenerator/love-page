@@ -1,0 +1,29 @@
+.main-container {
+    width: 90%;
+    margin: 5%;
+
+    background-color: beige;
+    border-radius: 50px;
+}
+
+.hearts-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.heart-symbol {
+    margin: 30px;
+    font-size: 105px;
+    /* transform: scale(.5, 1); */
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.3); }
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
